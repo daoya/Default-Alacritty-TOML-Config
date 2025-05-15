@@ -7,17 +7,16 @@ To use:
 Download file and move to alacritty folder (typically ~/.config/alacritty) or clone repo:
 
 ```
-git clone https://github.com/TwiggieSmallz/Default-Alacritty-TOML-Config.git
+git clone https://github.com/daoya/Default-Alacritty-TOML-Config.git
 cd Default-Alacritty-TOML-Config/
 cp alacritty.toml ~/.config/alacritty/
-
-# optional font setup:
-
-unzip FisaFont.zip
-sudo cp -r FisaFont/*.ttf /usr/share/fonts/TTF
-
 ```
+# font setup:
+## Maple Mono NF CN
+### Scoop (Windows)
+scoop install Maple-Mono-NF-CN
+### Homebrew (MacOS, Linux)
+## Maple Mono NF CN
+brew install --cask font-maple-mono-nf-cn
 
-Created and tested on RebornOS (Arch Linux).
-
-Improvements & constructive criticisms welcome; I'm rather new to creating here on Github.
+Created and tested on MacOS sequoia and Windows 10 (Arch Linux).
