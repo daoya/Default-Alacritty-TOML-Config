@@ -231,9 +231,28 @@ multiplier = 3
 # Default: true
 
 [font]
-normal = { family = "Fisa Code", style = "Italic" }
-size = 8
+size = 14.0
 builtin_box_drawing = true 
+
+[font.bold]
+family = "Maple Mono NF CN"
+style = "Bold"
+
+[font.glyph_offset]
+x = 0
+y = 0
+
+[font.italic]
+family = "Maple Mono NF CN"
+style = "Italic"
+
+[font.normal]
+family = "Maple Mono NF CN"
+style = "Regular"
+
+[font.offset]
+x = 0
+y = 0
 
 # COLORS
 # This section documents the [colors] table of the configuration file.
